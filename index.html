@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday, Tia! 💕</title>
+  <style>
+    body {
+      margin: 0; padding: 0; font-family: 'Georgia', serif;
+      background: linear-gradient(135deg, #ffebee, #f8bbd0);
+      color: #5d4037;
+      text-align: center;
+      overflow-x: hidden;
+    }
+    .hero {
+      height: 100vh;
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url('YOUR-PHOTO-OF-TIA.jpg') center/cover;
+      display: flex; align-items: center; justify-content: center;
+      color: white;
+      position: relative;
+    }
+    .hearts { position: absolute; top: 30px; font-size: 45px; animation: float 5s infinite; }
+    @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-40px); } }
+    
+    h1 { font-size: 4.2rem; margin: 0; text-shadow: 0 0 25px rgba(0,0,0,0.7); }
+    .subtitle { font-size: 2rem; margin-top: 10px; }
+
+    section { padding: 70px 20px; max-width: 900px; margin: 0 auto; }
+    .letter { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.15); line-height: 1.9; font-size: 1.25rem; }
+    
+    button {
+      background: #e91e63; color: white; border: none; padding: 16px 35px; 
+      font-size: 1.3rem; border-radius: 50px; cursor: pointer; margin: 20px;
+      transition: all 0.3s;
+    }
+    button:hover { background: #c2185b; transform: scale(1.08); }
+  </style>
+</head>
+<body>
+
+  <audio id="loveSong" autoplay loop>
+    <source src="https://cdn.pixabay.com/audio/2024/04/02/audio_3c5c5e5c8c.mp3" type="audio/mpeg">
+  </audio>
+
+  <div class="hero">
+    <div>
+      <div class="hearts">💗 ❤️ 💗</div>
+      <h1>Happy Birthday, Tia! 🎂✨</h1>
+      <p class="subtitle">My forever love, my everything 💕</p>
+    </div>
+  </div>
+
+  <section>
+    <h2>Our Story</h2>
+    <p style="font-size:1.4rem; max-width:700px; margin:30px auto;">
+      From the day I met you, my life has been filled with so much love and happiness. 
+      You are my favorite person in the world, Tia.
+    </p>
+  </section>
+
+  <section style="background:#fff;">
+    <h2>Our Beautiful Memories</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; padding: 20px;">
+      <img src="photo1.jpg" style="width:100%; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.2);" alt="Memory">
+      <img src="photo2.jpg" style="width:100%; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.2);" alt="Memory">
+      <img src="photo3.jpg" style="width:100%; border-radius:15px; box-shadow:0 10px 25px rgba(0,0,0,0.2);" alt="Memory">
+    </div>
+  </section>
+
+  <section>
+    <h2>My Love Letter to You</h2>
+    <div class="letter">
+      <p>Dear Tia,</p>
+      <p>Today is your special day...</p>
+      <p>Happy Birthday, my love. ❤️</p>
+      <p>Yours always,<br>Your Name</p>
+    </div>
+  </section>
+
+  <section style="background:#fce4ec; padding:80px 20px;">
+    <h2>Click this if you want to know how special you are to me 🌸</h2>
+    <a href="special.html"><button>🌷 See My Heart for You 🌷</button></a>
+  </section>
+
+  <footer style="padding:50px; background:#880e4f; color:white; font-size:1.1rem;">
+    <p>Made with endless love just for you, Tia 💕 • May 10, 2026</p>
+  </footer>
+
+  <script>
+    const audio = document.getElementById('loveSong');
+    audio.volume = 0.55;
+  </script>
+</body>
+</html>
